@@ -143,6 +143,27 @@ img {
   background: var(--main-blue);
 }
 
+/* Title images */
+#cf {
+  position:relative;
+  height: 100%;
+  width: 100%;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
 /* Welcome section */
 
 .welcome-section {
@@ -163,6 +184,9 @@ img {
   color: var(--main-red);
 }
 
+.container {
+  position: absolute;
+}
 /* Reel Section */
 
 .reel-section {
