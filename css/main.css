@@ -187,6 +187,21 @@ img {
 .container {
   position: absolute;
 }
+
+.initials-section {
+  font-family: 'Cormorant SC';
+  font-size: 15rem;
+  opacity: 85%;
+  color: #222222;
+  text-shadow: 5px 5px 5px #222222;
+}
+
+.name-section {
+  font-family: 'Cormorant SC';
+  font-size: 8rem;
+  color: #e3e3e3;
+  text-shadow: -1px -1px 2px #2e2e2e;
+}
 /* Reel Section */
 
 .reel-section {
